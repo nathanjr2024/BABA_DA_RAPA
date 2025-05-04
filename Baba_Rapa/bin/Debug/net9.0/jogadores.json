@@ -1,0 +1,242 @@
+[
+  {
+    "Id": "1001",
+    "Nome": "Nathan dos Cocais",
+    "Idade": 23,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1002",
+    "Nome": "Carlos Mendes",
+    "Idade": 25,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1003",
+    "Nome": "Roberto Silva",
+    "Idade": 28,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1004",
+    "Nome": "Lucas Oliveira",
+    "Idade": 21,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1005",
+    "Nome": "Thiago Lima",
+    "Idade": 24,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1006",
+    "Nome": "Diego Santos",
+    "Idade": 26,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1007",
+    "Nome": "Felipe Rocha",
+    "Idade": 22,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1008",
+    "Nome": "Jo\u00E3o Pedro",
+    "Idade": 20,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1009",
+    "Nome": "Andr\u00E9 Souza",
+    "Idade": 29,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1010",
+    "Nome": "Matheus Cunha",
+    "Idade": 24,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1011",
+    "Nome": "Bruno Costa",
+    "Idade": 23,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1012",
+    "Nome": "Henrique Alves",
+    "Idade": 27,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1013",
+    "Nome": "Vinicius Moraes",
+    "Idade": 26,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1014",
+    "Nome": "Gabriel Dias",
+    "Idade": 25,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1015",
+    "Nome": "Leandro Teixeira",
+    "Idade": 22,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1016",
+    "Nome": "Ricardo Farias",
+    "Idade": 24,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1017",
+    "Nome": "Pedro Henrique",
+    "Idade": 28,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1018",
+    "Nome": "Rafael Lopes",
+    "Idade": 21,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1019",
+    "Nome": "Danilo Rocha",
+    "Idade": 26,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1020",
+    "Nome": "Igor Martins",
+    "Idade": 23,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1021",
+    "Nome": "Caio Barbosa",
+    "Idade": 25,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1022",
+    "Nome": "S\u00E9rgio Ramos",
+    "Idade": 27,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1023",
+    "Nome": "Jorge Nascimento",
+    "Idade": 29,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1024",
+    "Nome": "Marcelo Vieira",
+    "Idade": 26,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1025",
+    "Nome": "Bruno Henrique",
+    "Idade": 24,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1026",
+    "Nome": "Luan Pereira",
+    "Idade": 22,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1027",
+    "Nome": "Renato Augusto",
+    "Idade": 30,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1028",
+    "Nome": "Eduardo Costa",
+    "Idade": 28,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1029",
+    "Nome": "Wesley Ribeiro",
+    "Idade": 23,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1030",
+    "Nome": "Alex Silva",
+    "Idade": 21,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1031",
+    "Nome": "Patrick Xavier",
+    "Idade": 26,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1032",
+    "Nome": "Murilo Gomes",
+    "Idade": 27,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1033",
+    "Nome": "Jean Carlos",
+    "Idade": 22,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1034",
+    "Nome": "Everton Luiz",
+    "Idade": 24,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1035",
+    "Nome": "Vitor Hugo",
+    "Idade": 23,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1036",
+    "Nome": "Douglas Freitas",
+    "Idade": 25,
+    "Posicao": "Goleiro"
+  },
+  {
+    "Id": "1037",
+    "Nome": "Ruan Oliveira",
+    "Idade": 28,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1038",
+    "Nome": "Allan Torres",
+    "Idade": 20,
+    "Posicao": "Defesa"
+  },
+  {
+    "Id": "1039",
+    "Nome": "Caio Silva",
+    "Idade": 24,
+    "Posicao": "Atacante"
+  },
+  {
+    "Id": "1040",
+    "Nome": "Tiago Almeida",
+    "Idade": 23,
+    "Posicao": "Atacante"
+  }
+]

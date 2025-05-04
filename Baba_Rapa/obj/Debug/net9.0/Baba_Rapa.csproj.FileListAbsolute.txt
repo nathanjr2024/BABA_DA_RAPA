@@ -1,0 +1,28 @@
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfoInputs.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfo.cs
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.csproj.CoreCompileInputs.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.exe
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.deps.json
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.runtimeconfig.json
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\refint\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.genruntimeconfig.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba\Baba_Rapa\obj\Debug\net9.0\ref\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.exe
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.deps.json
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.runtimeconfig.json
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfoInputs.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfo.cs
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.csproj.CoreCompileInputs.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\refint\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.genruntimeconfig.cache
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\ref\Baba_Rapa.dll
