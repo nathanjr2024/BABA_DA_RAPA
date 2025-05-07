@@ -1,9 +1,10 @@
 // Jogador.cs
 using System;
+using interfaces;
 
 namespace BABA_DO_RAPA.Modelos
 {
-    public class Jogador
+    public class Jogador : IJogador
     {
         public string Id { get; set; }
         public string Nome { get; set; }

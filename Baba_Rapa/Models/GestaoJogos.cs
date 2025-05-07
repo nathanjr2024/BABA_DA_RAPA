@@ -1,7 +1,9 @@
 namespace Models;
+
+using interfaces;
 using Regras;
 
-public class Jogos
+public class Jogos : IGestaoJogos
 {
 
     private DateTime _dataDoJogo;
