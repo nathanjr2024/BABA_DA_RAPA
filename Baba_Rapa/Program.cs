@@ -21,7 +21,8 @@ class Program
             Console.WriteLine("6. Listar partidas");
             Console.WriteLine("7. Editar partida");
             Console.WriteLine("8. Remover partida");
-            Console.WriteLine("9. Sair");
+            Console.WriteLine("9. Ver ranking de vitorias");
+            Console.WriteLine("10 Sair");
             Console.Write("Escolha: ");
             var opcao = Console.ReadLine();
 
@@ -85,28 +86,82 @@ class Program
                     break;
 
                 case "5":
+
                     try
                     {
-                        var novaPartida = new Jogos();
+                        Console.Write("Nome do Time A: ");
+                        var timeA = Console.ReadLine();
+                        Console.Write("Nome do Time B: ");
+                        var timeB = Console.ReadLine();
+
                         Console.Write("Data do jogo (dd/mm/yyyy): ");
-                        novaPartida.DataDoJogo = DateTime.Parse(Console.ReadLine());
+                        var data = DateTime.Parse(Console.ReadLine());
+
+
+                        Console.Write("Tipo de campo \n 1: Campo \n 2: Quadra \n 3: Society\nEscolha: ");
+                        int tipoCampo = int.Parse(Console.ReadLine());
+
+                        List<string> locaisDisponiveis;
+
+                        switch (tipoCampo)
+                        {
+                            case 1:
+                                locaisDisponiveis = Locais.Campos.Lista;
+                                break;
+                            case 2:
+                                locaisDisponiveis = Locais.Quadras.Lista;
+                                break;
+                            case 3:
+                                locaisDisponiveis = Locais.Society.Lista;
+                                break;
+                            default:
+                                Console.WriteLine("Tipo de campo inválido.");
+                                return;
+                        }
+
                         Console.WriteLine("Locais disponíveis:");
-                        foreach (var local in Regras.LocaisPermitidos.Lista)
+                        foreach (var local in locaisDisponiveis)
                             Console.WriteLine($"- {local}");
+
                         Console.Write("Local: ");
-                        novaPartida.Local = Console.ReadLine();
-                        Console.Write("Tipo de campo (1, 2, 3 ou 4): ");
-                        novaPartida.TipoDeCampo = int.Parse(Console.ReadLine());
-                        Console.Write("Quantidade de jogadores (deve ser 10): ");
-                        novaPartida.QuantidadeDeJogadores = int.Parse(Console.ReadLine());
-                        repositorioPartidas.Adicionar(novaPartida);
-                        Console.WriteLine("Partida cadastrada com sucesso.");
+                        var localJogo = Console.ReadLine();
+
+                        if (!locaisDisponiveis.Contains(localJogo))
+                        {
+                            Console.WriteLine("Local inválido para o tipo de campo escolhido.");
+                            return;
+                        }
+
+
+
+                        Console.Write($"Gols de {timeA}: ");
+                        int golsA = int.Parse(Console.ReadLine());
+                        Console.Write($"Gols de {timeB}: ");
+                        int golsB = int.Parse(Console.ReadLine());
+
+
+                        Console.WriteLine("Modo de jogo:");
+                        Console.WriteLine("1. Quem ganha fica");
+                        Console.WriteLine("2. Dois jogos por time");
+                        Console.Write("Escolha: ");
+                        var modoEscolha = Console.ReadLine();
+
+                        var modo = modoEscolha == "2" ? ModoDeJogo.DoisJogosPorTime : ModoDeJogo.QuemGanhaFica;
+
+                        var gestor = new GestorDePartidas(new List<string> { timeA, timeB }, modo);
+
+                        var partida = gestor.JogarPartida(timeA, timeB, golsA, golsB, data, localJogo, tipoCampo);
+
+                        repositorioPartidas.Adicionar(partida);
+                        Console.WriteLine($"Partida registrada com sucesso! Resultado: {partida.Resultado}");
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine($"Erro ao cadastrar partida: {ex.Message}");
                     }
                     break;
+
+
 
                 case "6":
                     var partidas = repositorioPartidas.ListarTodos();
@@ -168,6 +223,20 @@ class Program
                     break;
 
                 case "9":
+                    var partidasRegistradas = repositorioPartidas.ListarTodos();
+                    var gestorRanking = new GestorDePartidas(partidasRegistradas.Select(p => p.TimeA).Concat(partidasRegistradas.Select(p => p.TimeB)), ModoDeJogo.QuemGanhaFica);
+                    foreach (var p in partidasRegistradas)
+                        gestorRanking.JogarPartida(p.TimeA, p.TimeB, p.GolsTimeA, p.GolsTimeB, p.DataDoJogo, p.Local, p.TipoDeCampo);
+
+                    var ranking = gestorRanking.ObterRankingVitorias();
+                    Console.WriteLine("--- Ranking de Vitórias ---");
+                    foreach (var item in ranking)
+                    {
+                        Console.WriteLine($"{item.Key}: {item.Value} vitórias");
+                    }
+                    break;
+
+                case "10":
                     return;
 
                 default:
@@ -177,3 +246,5 @@ class Program
         }
     }
 }
+
+

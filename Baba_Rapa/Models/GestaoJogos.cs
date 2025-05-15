@@ -1,7 +1,7 @@
 namespace Models;
 
 using interfaces;
-using Regras;
+using Locais;
 
 public class Jogos : IGestaoJogos
 {
@@ -32,12 +32,14 @@ public class Jogos : IGestaoJogos
 
         set
         {
-            if (value != 1 && value != 2 && value != 3 && value != 4)
+            if (value != 1 && value != 2 && value != 3)
             {
-                throw new Exception("Opção inválida. Escolha um valor entre 1 e 4.");
+                throw new Exception("Opção inválida. Escolha um campo valido.");
             }
 
             _tipoDeCampo = value;
+
+            
         }
     }
     
@@ -63,22 +65,43 @@ public class Jogos : IGestaoJogos
     }
 
     public string Local
+{
+    get { return _local; }
+
+    set
     {
-        get { return _local; }
+        if (string.IsNullOrWhiteSpace(value))
+            throw new Exception("O campo de local é obrigatório.");
 
-        set
+        bool localValido = TipoDeCampo switch
         {
-            if (string.IsNullOrWhiteSpace(value))
-            {
-                throw new Exception("O campo de local é obrigatório.");
-            }
+            1 => Campos.Lista.Any(l => l.Equals(value, StringComparison.OrdinalIgnoreCase)),
+            2 => Quadras.Lista.Any(l => l.Equals(value, StringComparison.OrdinalIgnoreCase)),
+            3 => Society.Lista.Any(l => l.Equals(value, StringComparison.OrdinalIgnoreCase)),
+            _ => false
+        };
 
-            if (!LocaisPermitidos.Lista.Any(l => l.Equals(value, StringComparison.OrdinalIgnoreCase)))
-            {
-                throw new Exception("Local inválido. Escolha um dos locais permitidos.");
-            }
+        if (!localValido)
+            throw new Exception("Local inválido. Escolha um dos locais permitidos para o tipo de campo selecionado.");
 
-            _local = value;
+        _local = value;
+    }
+}
+
+
+    public string TimeA { get; set; }
+    public string TimeB { get; set; }
+    public int GolsTimeA { get; set; }
+    public int GolsTimeB { get; set; }
+
+    public string Resultado
+    {
+        get
+        {
+            if (GolsTimeA > GolsTimeB) return $"{TimeA} venceu";
+            if (GolsTimeB > GolsTimeA) return $"{TimeB} venceu";
+            return "Empate";
         }
     }
+
 }
