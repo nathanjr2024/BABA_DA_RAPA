@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tb/nm8lh+Sc=",
+  "dgSpecHash": "poVE6BBR00I=",
   "success": true,
   "projectFilePath": "C:\\Users\\cleiv\\Documents\\Projeto ERP do Baba\\BABA_DA_RAPA\\Baba_Rapa\\Baba_Rapa.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cleiv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\cleiv\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\cleiv\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
