@@ -1,10 +1,10 @@
-namespace interfaces;
-
-public interface IJogador
+namespace interfaces
 {
-    public string Id {get;}
-    public string Nome { get; }
-    public int Idade { get; }
-    public string Posicao { get; }
-
+    public interface IJogador
+    {
+        int Id { get; set; }
+        string Nome { get; set; }
+        int Idade { get; set; }
+        string Posicao { get; set; }
+    }
 }
