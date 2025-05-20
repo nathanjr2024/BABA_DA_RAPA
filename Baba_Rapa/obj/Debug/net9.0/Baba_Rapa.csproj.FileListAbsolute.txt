@@ -71,3 +71,23 @@ C:\Users\Nathan Jr\Downloads\BABA_DA_RAPAKauanteste\BABA_DA_RAPA\Baba_Rapa\obj\D
 C:\Users\Nathan Jr\Downloads\BABA_DA_RAPAKauanteste\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.pdb
 C:\Users\Nathan Jr\Downloads\BABA_DA_RAPAKauanteste\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.genruntimeconfig.cache
 C:\Users\Nathan Jr\Downloads\BABA_DA_RAPAKauanteste\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\ref\Baba_Rapa.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.exe
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.deps.json
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.runtimeconfig.json
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfoInputs.cache
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.AssemblyInfo.cs
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.csproj.CoreCompileInputs.cache
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.sourcelink.json
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\refint\Baba_Rapa.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.pdb
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.genruntimeconfig.cache
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\ref\Baba_Rapa.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.csproj.AssemblyReference.cache
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\cleiv\Documents\Projeto ERP do Baba\BABA_DA_RAPA\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.csproj.Up2Date
