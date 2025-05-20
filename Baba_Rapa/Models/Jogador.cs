@@ -6,7 +6,7 @@ namespace BABA_DO_RAPA.Modelos
 {
     public class Jogador : IJogador
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Nome { get; set; }
         public int Idade { get; set; }
 
