@@ -107,8 +107,8 @@ class Program
                     Console.WriteLine("Tipo de campo (1, 2, 3 ou 4): ");
                     novaPartida.TipoDeCampo = int.Parse(Console.ReadLine());
 
-                    Console.Write("Quantidade de jogadores (deve ser 10): ");
-                    novaPartida.QuantidadeDeJogadores = int.Parse(Console.ReadLine());
+                    Console.Write("A partida esta sendo iniciada com 10 jogadores? (SIM/NÃO) ");
+                    novaPartida.QuantidadeDeJogadores = (Console.ReadLine());
 
                     repositorioPartidas.Adicionar(novaPartida);
                     Console.WriteLine("Partida cadastrada com sucesso.");
@@ -118,7 +118,6 @@ class Program
                     Console.WriteLine($"Erro ao cadastrar partida: {ex.Message}");
                 }
                 break;
-
                 case "7":
                     return;
 

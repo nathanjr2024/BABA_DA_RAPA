@@ -26,3 +26,4 @@ C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\refint
 C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.pdb
 C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.genruntimeconfig.cache
 C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\ref\Baba_Rapa.dll
+C:\Users\Nathan Jr\Desktop\Teste00Baba - Copia\Baba_Rapa\obj\Debug\net9.0\Baba_Rapa.sourcelink.json

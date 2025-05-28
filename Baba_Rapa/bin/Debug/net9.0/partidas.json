@@ -4,5 +4,17 @@
     "TipoDeCampo": 2,
     "DataDoJogo": "2025-05-20T00:00:00",
     "Local": "Quadra 1"
+  },
+  {
+    "QuantidadeDeJogadores": 10,
+    "TipoDeCampo": 4,
+    "DataDoJogo": "2025-06-06T00:00:00",
+    "Local": "quadra 1"
+  },
+  {
+    "QuantidadeDeJogadores": 10,
+    "TipoDeCampo": 2,
+    "DataDoJogo": "2025-06-06T00:00:00",
+    "Local": "QUADRA 1"
   }
 ]

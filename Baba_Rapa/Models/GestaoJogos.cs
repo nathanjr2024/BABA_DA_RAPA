@@ -7,15 +7,15 @@ public class Jogos
     private DateTime _dataDoJogo;
     private string _local;
     private int _tipoDeCampo;
-    private int _quantidadeDeJogadores;
+    private string _quantidadeDeJogadores;
 
-    public int QuantidadeDeJogadores
+    public string QuantidadeDeJogadores
     {
         get { return _quantidadeDeJogadores; }
 
         set
         {
-            if (value != 10)
+            if (value != "SIM")
             {
                 throw new Exception("A quantidade de jogadores não está de acordo com as normas. Por favor, comecem a partida com 10 jogadores.");
             }
