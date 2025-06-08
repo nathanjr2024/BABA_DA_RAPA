@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Id": "D2",
+    "JogoId": "I5S",
+    "TimeA": [
+      "Z\u00E9 da Manga",
+      "zaza",
+      "Jo\u00E3o Vitor",
+      "Carlos Eduardo",
+      "Gabriel Cilo\u0000"
+    ],
+    "TimeB": [
+      "Nathan",
+      "Lucas Silva",
+      "Rafael Mendes",
+      "Thiago Gomes",
+      "Bruno Lima"
+    ],
+    "Vencedor": "A",
+    "DataHora": "2025-06-08T15:42:08.1816878-03:00",
+    "NumeroDaRodada": 1,
+    "Modo": 1
+  }
+]

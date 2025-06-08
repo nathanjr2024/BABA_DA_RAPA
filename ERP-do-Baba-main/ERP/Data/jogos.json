@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Id": "I5S",
+    "Data": "2025-06-26T00:00:00",
+    "Local": "UNASP",
+    "TipoCampo": "Quadra",
+    "JogadoresPorTime": 5,
+    "LimiteDeTimes": 4,
+    "Interessados": [],
+    "InteressadosIds": [],
+    "Confirmado": false
+  },
+  {
+    "Id": "I9V",
+    "Data": "2025-08-01T00:00:00",
+    "Local": "JACARAND\u00C1",
+    "TipoCampo": "Society",
+    "JogadoresPorTime": 5,
+    "LimiteDeTimes": 4,
+    "Interessados": [],
+    "InteressadosIds": [],
+    "Confirmado": false
+  }
+]
