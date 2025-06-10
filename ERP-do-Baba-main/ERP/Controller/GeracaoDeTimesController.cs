@@ -46,6 +46,8 @@ namespace Controller
             try
             {
                 Console.Write("Informe o ID do Jogo para gerar os times: ");
+
+
                 string jogoId = Console.ReadLine()?.Trim() ?? "";
 
                 if (string.IsNullOrEmpty(jogoId))
@@ -56,37 +58,55 @@ namespace Controller
 
                 var jogo = _jogoRepositorio.BuscarPorId(jogoId);
 
-                var jogadoresDisponiveis = jogo.InteressadosIds
-                    .Select(id => _jogadorRepositorio.BuscarPorId(id))
-                    .Where(j => j != null)
-                    .Cast<Jogador>()
-                    .ToList();
-
-                if (jogadoresDisponiveis.Count < jogo.JogadoresPorTime * 2)
+                if (jogo != null)
                 {
-                    Console.WriteLine("Não há jogadores suficientes para formar dois times completos.");
+                    Console.WriteLine("\n[DEBUG] Verificando jogadores interessados por ID:");
+                    foreach (var id in jogo.InteressadosIds)
+                    {
+                        var jogador = _jogadorRepositorio.BuscarPorId(id);
+                        if (jogador == null)
+                            Console.WriteLine($"[⚠] Jogador com ID {id} não encontrado no repositório.");
+                        else
+                            Console.WriteLine($"[✔] Jogador encontrado: {jogador.Nome} (ID: {jogador.Id})");
+                    }
+
+                    var jogadoresDisponiveis = jogo.InteressadosIds
+                        .Select(id => _jogadorRepositorio.BuscarPorId(id))
+                        .Where(j => j != null)
+                        .Cast<Jogador>()
+                        .ToList();
+
+                    if (jogadoresDisponiveis.Count < jogo.JogadoresPorTime * 2)
+                    {
+                        Console.WriteLine("Não há jogadores suficientes para formar dois times completos.");
+                        return;
+                    }
+
+                    int metodo = _view.EscolherMetodoGeracao();
+
+                    GeradorDeTimes gerador = metodo switch
+                    {
+                        1 => new GeradorPorOrdemDeChegada(),
+                        2 => new GeradorPorPosicao(),
+                        3 => new GeradorPorFaixaEtaria(_view.DefinirFaixaEtaria()),
+                        _ => new GeradorPorOrdemDeChegada()
+                    };
+
+                    var timesGerados = gerador.GerarTimes(jogadoresDisponiveis, jogo.JogadoresPorTime);
+
+                    if (!timesGerados.Any())
+                    {
+                        Console.WriteLine("Não foi possível gerar times com os jogadores disponíveis.");
+                        return;
+                    }
+
+                    _view.ListarTimes(timesGerados);
+                }
+                else
+                {
+                    Console.WriteLine("Jogo não encontrado.");
                     return;
                 }
-
-                int metodo = _view.EscolherMetodoGeracao();
-
-                GeradorDeTimes gerador = metodo switch
-                {
-                    1 => new GeradorPorOrdemDeChegada(),
-                    2 => new GeradorPorPosicao(),
-                    3 => new GeradorPorFaixaEtaria(_view.DefinirFaixaEtaria()),
-                    _ => new GeradorPorOrdemDeChegada()
-                };
-
-                var timesGerados = gerador.GerarTimes(jogadoresDisponiveis, jogo.JogadoresPorTime);
-
-                if (!timesGerados.Any())
-                {
-                    Console.WriteLine("Não foi possível gerar times com os jogadores disponíveis.");
-                    return;
-                }
-
-                _view.ListarTimes(timesGerados);
             }
             catch (Exception ex)
             {

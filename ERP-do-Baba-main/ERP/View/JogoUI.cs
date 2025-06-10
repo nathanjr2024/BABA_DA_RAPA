@@ -7,14 +7,16 @@ namespace View
     {
         public string ExibirMenu()
         {
-            Console.WriteLine("\n=== GESTÃO DE JOGOS ===");
-            Console.WriteLine("1 - Adicionar Jogo");
-            Console.WriteLine("2 - Listar Jogos");
-            Console.WriteLine("3 - Registrar Interessado");
-            Console.WriteLine("0 - Voltar");
+            Console.WriteLine("\n=== MENU DE JOGOS ===");
+            Console.WriteLine("1. Adicionar jogo");
+            Console.WriteLine("2. Listar jogos");
+            Console.WriteLine("3. Registrar interessado");
+            Console.WriteLine("4. Sincronizar IDs dos interessados"); // ✅ Adicione esta linha
+            Console.WriteLine("0. Sair");
             Console.Write("Escolha uma opção: ");
-            return Console.ReadLine() ?? "0";
+            return Console.ReadLine()!;
         }
+
 
         public void Adicionar(IJogoRepositorio repositorio)
         {
@@ -100,7 +102,7 @@ namespace View
             }
 
             var jogo = repositorio.BuscarPorId(id);
-            
+
             if (jogo == null)
             {
                 Console.WriteLine("Jogo não encontrado.");

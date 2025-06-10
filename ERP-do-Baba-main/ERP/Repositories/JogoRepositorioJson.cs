@@ -37,7 +37,7 @@ namespace Repositories
         public void Atualizar(Jogo jogo)
         {
             var existente = BuscarPorId(jogo.Id);
-            if (existente != null)
+           if (existente != null)
             {
                 existente.Data = jogo.Data;
                 existente.Local = jogo.Local;

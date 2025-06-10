@@ -1,10 +1,12 @@
 using Models;
 namespace View
 {
-    public class GeracaoDeTimesView{
+    public class GeracaoDeTimesView
+    {
 
         //Exibe o menu de geração de times
-        public string ExibirMenu(){
+        public string ExibirMenu()
+        {
             Console.WriteLine("\n=== GESTÃO DE TIMES ===");
             Console.WriteLine("1 - Gerar Times");
             Console.WriteLine("0 - Voltar");
@@ -12,7 +14,8 @@ namespace View
             return Console.ReadLine() ?? "0";
         }
         //permite escolher o método da geração de times
-        public int EscolherMetodoGeracao(){
+        public int EscolherMetodoGeracao()
+        {
             Console.WriteLine("\n=== GESTÃO DE TIMES ===");
             Console.WriteLine("1 - Ordem de Chegada");
             Console.WriteLine("2 - Equilíbrio por Posição");
@@ -23,18 +26,21 @@ namespace View
             return int.Parse(Console.ReadLine() ?? "0");
         }
 
-        public int DefinirFaixaEtaria(){
+        public int DefinirFaixaEtaria()
+        {
             Console.Write("Informe a faixa etária máxima de diferença: ");
             return int.Parse(Console.ReadLine() ?? "10");
         }
 
-        public void ListarTimes(List<TimeDeJogo> timesGerados){
-            for(int i=0; i < timesGerados.Count; i ++){
+        public void ListarTimes(List<TimeDeJogo> timesGerados)
+        {
+            for (int i = 0; i < timesGerados.Count; i++)
+            {
                 Console.WriteLine($"\n Time {i + 1}:");
                 foreach (var jogador in timesGerados[i].Jogadores)
-{
-    Console.WriteLine($"- {jogador.Nome} | Idade: {jogador.Idade} | Posição: {jogador.Posicao}");
-}
+                {
+                    Console.WriteLine($"- {jogador.Nome} | Idade: {jogador.Idade} | Posição: {jogador.Posicao}");
+                }
 
             }
         }

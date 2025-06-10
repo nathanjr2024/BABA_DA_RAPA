@@ -7,18 +7,18 @@ namespace Controller
     {
         private readonly IPartidaRepositorio _repositorio;
         private readonly IJogoRepositorio _jogoRepositorio;
-        private readonly IJogadorRepositorio _jogadorRepositorio; // ✅ NOVO
+        private readonly IJogadorRepositorio _jogadorRepositorio; // NOVO
         private readonly PartidaView _view;
 
         public PartidaController(
             IPartidaRepositorio repositorio,
             IJogoRepositorio jogoRepositorio,
-            IJogadorRepositorio jogadorRepositorio, // ✅ NOVO
+            IJogadorRepositorio jogadorRepositorio, //  NOVO
             PartidaView view)
         {
             _repositorio = repositorio;
             _jogoRepositorio = jogoRepositorio;
-            _jogadorRepositorio = jogadorRepositorio; // ✅ NOVO
+            _jogadorRepositorio = jogadorRepositorio; // NOVO
             _view = view;
         }
 
@@ -30,7 +30,7 @@ namespace Controller
                 switch (opcao)
                 {
                     case "1":
-                        _view.Adicionar(_repositorio, _jogoRepositorio, _jogadorRepositorio); // ✅ Corrigido
+                        _view.Adicionar(_repositorio, _jogoRepositorio, _jogadorRepositorio); // Passando o repositório de jogadores
                         break;
                     case "2":
                         _view.Listar(_repositorio);

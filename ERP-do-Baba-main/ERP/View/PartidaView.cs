@@ -54,7 +54,7 @@ namespace View
                 Console.WriteLine("\n--- Jogadores Disponíveis ---");
                 foreach (var jogador in jogadores)
                 {
-                    Console.WriteLine($"{jogador.Id} - {jogador.Nome}");
+                    Console.WriteLine($"{jogador.Id} - {jogador.Nome} - {jogador.Posicao}");
                 }
 
                 List<string> timeA = new();
@@ -140,5 +140,6 @@ namespace View
                 Console.WriteLine("Data/Hora: " + p.DataHora);
             }
         }
+        
     }
 }
