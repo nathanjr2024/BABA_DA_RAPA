@@ -1,0 +1,278 @@
+﻿[
+  {
+    "Id": 1,
+    "Nome": "Gabriel Cilo\u0000",
+    "Idade": 25,
+    "Posicao": 2
+  },
+  {
+    "Id": 2,
+    "Nome": "Nathan",
+    "Idade": 23,
+    "Posicao": 2
+  },
+  {
+    "Id": 3,
+    "Nome": "Lucas Silva",
+    "Idade": 26,
+    "Posicao": 1
+  },
+  {
+    "Id": 4,
+    "Nome": "Rafael Mendes",
+    "Idade": 24,
+    "Posicao": 2
+  },
+  {
+    "Id": 5,
+    "Nome": "Thiago Gomes",
+    "Idade": 27,
+    "Posicao": 1
+  },
+  {
+    "Id": 6,
+    "Nome": "Bruno Lima",
+    "Idade": 22,
+    "Posicao": 0
+  },
+  {
+    "Id": 7,
+    "Nome": "Henrique Souza",
+    "Idade": 28,
+    "Posicao": 2
+  },
+  {
+    "Id": 8,
+    "Nome": "Diego Rocha",
+    "Idade": 21,
+    "Posicao": 1
+  },
+  {
+    "Id": 9,
+    "Nome": "Marcos Andr\u00E9",
+    "Idade": 24,
+    "Posicao": 2
+  },
+  {
+    "Id": 10,
+    "Nome": "Vitor Santos",
+    "Idade": 25,
+    "Posicao": 1
+  },
+  {
+    "Id": 11,
+    "Nome": "Igor Carvalho",
+    "Idade": 29,
+    "Posicao": 0
+  },
+  {
+    "Id": 12,
+    "Nome": "Felipe Torres",
+    "Idade": 23,
+    "Posicao": 1
+  },
+  {
+    "Id": 13,
+    "Nome": "Ricardo Matos",
+    "Idade": 26,
+    "Posicao": 2
+  },
+  {
+    "Id": 14,
+    "Nome": "Daniel Costa",
+    "Idade": 22,
+    "Posicao": 1
+  },
+  {
+    "Id": 15,
+    "Nome": "Leandro Farias",
+    "Idade": 30,
+    "Posicao": 0
+  },
+  {
+    "Id": 16,
+    "Nome": "Eduardo Neves",
+    "Idade": 24,
+    "Posicao": 2
+  },
+  {
+    "Id": 17,
+    "Nome": "F\u00E1bio Almeida",
+    "Idade": 27,
+    "Posicao": 1
+  },
+  {
+    "Id": 18,
+    "Nome": "Samuel Oliveira",
+    "Idade": 23,
+    "Posicao": 1
+  },
+  {
+    "Id": 19,
+    "Nome": "Bruno Xavier",
+    "Idade": 26,
+    "Posicao": 2
+  },
+  {
+    "Id": 20,
+    "Nome": "Pedro Henrique",
+    "Idade": 21,
+    "Posicao": 2
+  },
+  {
+    "Id": 21,
+    "Nome": "Cau\u00E3 Martins",
+    "Idade": 22,
+    "Posicao": 0
+  },
+  {
+    "Id": 22,
+    "Nome": "Luiz Felipe",
+    "Idade": 25,
+    "Posicao": 1
+  },
+  {
+    "Id": 23,
+    "Nome": "Wesley Teixeira",
+    "Idade": 28,
+    "Posicao": 2
+  },
+  {
+    "Id": 24,
+    "Nome": "Ruan Batista",
+    "Idade": 24,
+    "Posicao": 1
+  },
+  {
+    "Id": 25,
+    "Nome": "Matheus Reis",
+    "Idade": 27,
+    "Posicao": 2
+  },
+  {
+    "Id": 26,
+    "Nome": "Andr\u00E9 Luiz",
+    "Idade": 23,
+    "Posicao": 0
+  },
+  {
+    "Id": 27,
+    "Nome": "Jean Carlos",
+    "Idade": 29,
+    "Posicao": 1
+  },
+  {
+    "Id": 28,
+    "Nome": "Rodrigo Melo",
+    "Idade": 26,
+    "Posicao": 2
+  },
+  {
+    "Id": 29,
+    "Nome": "Vin\u00EDcius Lima",
+    "Idade": 22,
+    "Posicao": 1
+  },
+  {
+    "Id": 30,
+    "Nome": "Gustavo Nogueira",
+    "Idade": 25,
+    "Posicao": 0
+  },
+  {
+    "Id": 31,
+    "Nome": "Lucas Rocha",
+    "Idade": 21,
+    "Posicao": 1
+  },
+  {
+    "Id": 32,
+    "Nome": "Caio Silva",
+    "Idade": 28,
+    "Posicao": 2
+  },
+  {
+    "Id": 33,
+    "Nome": "Fernando Pires",
+    "Idade": 23,
+    "Posicao": 2
+  },
+  {
+    "Id": 34,
+    "Nome": "Alex Santana",
+    "Idade": 27,
+    "Posicao": 0
+  },
+  {
+    "Id": 35,
+    "Nome": "Jonas Oliveira",
+    "Idade": 24,
+    "Posicao": 1
+  },
+  {
+    "Id": 36,
+    "Nome": "Murilo Costa",
+    "Idade": 22,
+    "Posicao": 2
+  },
+  {
+    "Id": 37,
+    "Nome": "Alan Ribeiro",
+    "Idade": 26,
+    "Posicao": 1
+  },
+  {
+    "Id": 38,
+    "Nome": "Yuri Machado",
+    "Idade": 25,
+    "Posicao": 2
+  },
+  {
+    "Id": 39,
+    "Nome": "Ot\u00E1vio Lemos",
+    "Idade": 28,
+    "Posicao": 1
+  },
+  {
+    "Id": 40,
+    "Nome": "Patrick Sousa",
+    "Idade": 23,
+    "Posicao": 0
+  },
+  {
+    "Id": 41,
+    "Nome": "Renan Dias",
+    "Idade": 27,
+    "Posicao": 1
+  },
+  {
+    "Id": 42,
+    "Nome": "Douglas Ramos",
+    "Idade": 24,
+    "Posicao": 2
+  },
+  {
+    "Id": 43,
+    "Nome": "Carlos Eduardo",
+    "Idade": 21,
+    "Posicao": 2
+  },
+  {
+    "Id": 44,
+    "Nome": "Jo\u00E3o Vitor",
+    "Idade": 26,
+    "Posicao": 0
+  },
+  {
+    "Id": 45,
+    "Nome": "zaza",
+    "Idade": 24,
+    "Posicao": 0
+  },
+  {
+    "Id": 46,
+    "Nome": "Z\u00E9 da Manga",
+    "Idade": 22,
+    "Posicao": 0
+  }
+]

@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Id": "U7",
+    "JogoId": "X0C",
+    "TimeA": [
+      "Gabriel Cilo\u0000",
+      "Nathan",
+      "Lucas Silva",
+      "Rafael Mendes",
+      "Thiago Gomes"
+    ],
+    "TimeB": [
+      "Bruno Lima",
+      "Henrique Souza",
+      "Diego Rocha",
+      "Marcos Andr\u00E9",
+      "Vitor Santos"
+    ],
+    "Vencedor": "A",
+    "DataHora": "2025-06-09T23:50:26.0142174-03:00",
+    "NumeroDaRodada": 1,
+    "Modo": 1
+  }
+]
